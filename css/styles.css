@@ -1,6 +1,150 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: #e5e5e5;
+}
+.hat {
+  background-color: #ffffff;
+}
+.hero {
+  background-color: #2f303a;
+}
+.team-content {
+  background-color: #f5f4fa;
+}
+.cellar {
+  background-color: #2f303a;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --brand-color: #2f303a;
+  --text-color: #212121;
+}
+
+.site-nav {
+  list-style: none;
+}
+.browsing-link,
+.cellar-link,
+.logo,
+.hat-link {
+  text-decoration: none;
+  color: black;
+}
+
+.hat-link,
+.cellar-link {
+  color: #757575;
+}
+
+.studio-link:active {
+  color: #2196f3;
+}
+
+.browsing-link:hover,
+.browsing-link:focus {
+  color: var(--accent-color);
+}
+
+.cellar-link:hover,
+.cellar-link:focus {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.hat-link:hover,
+.hat-link:focus {
+  color: var(--accent-color);
+}
+
+/* ______ */
+
+.browsing-link:active {
+  color: var(--brand-color);
+}
+
+.cellar-link:active {
+  color: var(--text-color);
+}
+
+/*work with text*/
+
+.text-two-main {
+  line-height: 1.1;
+}
+
+.text-what-we {
+  line-height: 1.1;
+}
+
+.text-what-we-do {
+  line-height: 1.7;
+  color: #757575;
+}
+
+.text-team {
+  line-height: 1.1;
+}
+
+.text-profession {
+  line-height: 1.1;
+  color: #757575;
+}
+
+.text-logo {
+  line-height: 1.1;
+}
+.text-link {
+  line-height: 1.1;
+}
+
+.text-cellar {
+  line-height: 1.7;
+}
+.text-title {
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.hero-button:focus {
+  line-height: 1.6;
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.text-button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.text-button-portfolio {
+  line-height: 1.6;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.text-our-projects {
+  line-height: 2;
+}
+.text-our-ptojects-work {
+  line-height: 1.8;
+  color: #757575;
+}
+.cellar-logo {
+  color: #ffffff;
+}
+.all-buttons {
+  cursor: pointer;
+}
+.current {
+  color: var(--accent-color);
+}
+.current-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }

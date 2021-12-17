@@ -6,169 +6,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link href="./css/styles.css" rel="stylesheet">
-    <style>
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-        <header>
-            <a href="./index.html" lang="en">
-                <span>Web</span>
-                Studio
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">
-                            Студия
-                        </a></li>
-                    <li><a href="./portfolio.html">
-                            Портфолио
-                        </a></li>
-                    <li><a href="">
-                            Контакты
-                        </a></li>
-                </ul>
-            </nav>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">
-                        info@devstudio.com
+    <header class="hat">
+        <a href="./index.html" lang="en" class="logo text-logo">
+            WebStudio
+        </a>
+        <nav>
+            <ul class="site-browsing">
+                <li><a class="browsing-link text-link  current" href="./index.html">
+                        Студия
                     </a></li>
-                <li><a href="tel:+380961111111"></a>
-                    +38 096 111 11 11
+                <li><a class="browsing-link text-link" href="./portfolio.html">
+                        Портфолио
+                    </a></li>
+                <li><a class="browsing-link text-link" href="">
+                        Контакты
+                    </a></li>
+            </ul>
+        </nav>
+        <ul class="hat-list">
+            <li><a class="hat-link text-link" href="mailto:info@devstudio.com">
+                    info@devstudio.com
+                </a></li>
+            <li><a class="hat-link text-link" href="tel:+380961111111"></a>
+                +38 096 111 11 11
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="text-title">
+                Эффективные решения для вашего бизнеса
+            </h1>
+            <button type="button" class="hero-button all-buttons">
+                Заказать услугу
+            </button>
+        </section>
+        <section>
+            <h2 hidden>
+                Серый кардинал
+            </h2>
+            <ul class="">
+                <li>
+                    <h3 class="text-what-we">
+                        Внимание к деталям
+                    </h3>
+                    <p class="text-what-we-do">
+                        Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="text-what-we">
+                        Пунктуальность
+                    </h3>
+                    <p class="text-what-we-do">
+                        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="text-what-we">
+                        Планирование
+                    </h3>
+                    <p class="text-what-we-do">
+                        Равным образом консультация с широким активом в значительной степени обуславливает.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="text-what-we">
+                        Современные технологии
+                    </h3>
+                    <p class="text-what-we-do">
+                        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    </p>
                 </li>
             </ul>
-        </header>
-        <main>
-            <section>
-                <ul>
-                    <li>
-                        <button class="button">
-                            Все
-                        </button>
-                    </li>
-                    <li>
-                        <button class="button">
-                            Веб-сайты
-                        </button>
-                    </li>
-                    <li>
-                        <button class="button">
-                            Приложения
-                        </button>
-                    </li>
-                   <li>
-                        <button class="button">
-                            Дизайн
-                        </button>
-                    </li>
-                    <li>
-                         <button class="button">
-                            Маркетинг
-                        </button>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <img src="./images/img.portfolio.1.jpg" alt="Ноутбук с фотографией трех людей" width="370" height="294">
-                        <p>
-                            Технокряк
-                        </p>
-                        <p>
-                            Веб-сайт
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.2.jpg" alt="баскетболисты" width="370" height="294">
-                        <p>
-                            Постер New Orlean vs Golden Star
-                        </p>
-                        <p>
-                            Дизайн
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.3.jpg" alt="логотип рыбного бизнеса" width="370" height="294">
-                        <p>
-                            Ресторан Seafood
-                        </p>
-                        <p>
-                            Приложение
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.4.jpg" alt="Черные наушники" width="370" height="294">
-                        <p>
-                            Проект Prime
-                        </p>
-                        <p>
-                            Маркетинг
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.5.jpg" alt="белая коробка и обычная коробка поменьше" width="370" height="294">
-                        <p>
-                            Проект Boxes
-                        </p>
-                        <p>
-                            Приложение
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.6.jpg" alt="экран монитора" width="370" height="294">
-                        <p>
-                            Inspiration has no Borders
-                        </p>
-                        <p>
-                            Веб-сайт
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.7.jpg" alt="журнал" width="370" height="294">
-                        <p>
-                            Издание Limited Edition
-                        </p>
-                        <p>
-                            Дизайн
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.8.jpg" alt="красивая, белая бирка" width="370" height="294">
-                        <p>
-                            Проект LAB
-                        </p>
-                        <p>
-                            Маркетинг
-                        </p>
-                    </li>
-                    <li>
-                        <img src="./images/img.portfolio.9.jpg" alt="макбук" width="370" height="294">
-                        <p>
-                            Growing Business
-                        </p>
-                        <p>
-                            Приложение
-                        </p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-            <footer>
-                <a href="./">
-                    <span>
-                        Web
-                    </span>
-                    Studio
-                </a>
-                <address>
-                    <a href="https://goo.gl/maps/cegaFSzmEe4wthp77" target="_blank" rel="noopener noreferrer">
-                        г. Киев, пр-т Леси Украинки, 26
-                    </a>
-                    <a href="mailto:info@example.com">
-                        info@example.com
-                    </a>
-                    <a href="tel:+380991111111">
-                        +38 099 111 11 11
-                    </a>
-                </address>
-            </footer>
+        </section>
+        <section>
+            <h2 class="text-two-main">
+                Чем мы занимаемся
+            </h2>
+            <ul>
+                <li>
+                    <img src="./images/img.computer.1.jpg" alt="pretty_white_computer" width="370">
+                </li>
+                <li>
+                    <img src="./images/img.computer.2.jpg" alt="beautiful_white_computer" width="370">
+                </li>
+                <li>
+                    <img src="./images/img.computer.3.jpg" alt="many_white_computers" width="370">
+                </li>
+            </ul>
+        </section>
+        <article class="team-content">
+            <h2>
+                Наша команда
+            </h2>
+            <ul class="text-two-main">
+                <li>
+                    <img src="./images/img.team.1.jpg" alt="Igor" width="270">
+                    <h3 class="text-team">
+                        Игорь Демьяненко
+                    </h3>
+                    <p lang="en" class="text-profession">
+                        Product Designer
+                    </p>
+                </li>
+                <li>
+                    <img src="./images/img.team.2.jpg" alt="Olga" width="270">
+                    <h3 class="text-team">
+                        Ольга Репина
+                    </h3>
+                    <p lang="en" class="text-profession">
+                        Frontend Developer
+                    </p>
+                </li>
+                <li>
+                    <img src="./images/img.team.3.jpg" alt="Nik" width="270">
+                    <h3 class="text-team">
+                        Николай Тарасов
+                    </h3>
+                    <p lang="en" class="text-profession">Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/img.team.4.jpg" alt="Myhailo" width="270">
+                    <h3 class="text-team">
+                        Михаил Ермаков
+                    </h3>
+                    <p lang="en" class="text-profession">
+                        UI Designer
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <footer class="cellar">
+        <a href="./" lang="en" class="logo text-logo">
+            WebStudio
+        </a>
+        <address>
+            <a class="cellar-link text-cellar" href="https://goo.gl/maps/cegaFSzmEe4wthp77" target="_blank"
+                rel="noopener noreferrer">
+                г. Киев, пр-т Леси Украинки, 26
+            </a>
+            <a class="cellar-link text-cellar" href="mailto:info@example.com">
+                info@example.com
+            </a>
+            <a class="cellar-link text-cellar" href="tel:+380991111111">
+                +38 099 111 11 11
+            </a>
+        </address>
+    </footer>
 </body>
+</html>
