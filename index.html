@@ -2,32 +2,34 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebStudio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <header class="hat">
-        <a href="./index.html" lang="en" class="logo">
+        <div class="container hat-container">
+        <a href="./index.html" lang="en" class="logo hat-logo">
             <span class="logo-web">Web</span>Studio
         </a>
-        <nav class="">
+        <nav class="browsing">
             <ul class="site-browsing list">
-                <li><a class="browsing-link text-link  current" href="./index.html">
+                <li class="nav-link"><a class="browsing-link text-link  current" href="./index.html">
                         Студия
                     </a></li>
-                <li><a class="browsing-link text-link" href="./portfolio.html">
+                <li class="nav-link"><a class="browsing-link text-link" href="./portfolio.html">
                         Портфолио
                     </a></li>
-                <li><a class="browsing-link text-link" href="">
+                <li class="nav-link"><a class="browsing-link text-link" href="">
                         Контакты
                     </a></li>
             </ul>
@@ -36,26 +38,30 @@
             <li><a class="hat-link text-link" href="mailto:info@devstudio.com">
                     info@devstudio.com
                 </a></li>
-            <li><a class="hat-link text-link" href="tel:+380961111111"></a>
-                +38 096 111 11 11
-            </li>
+            <li><a class="hat-link text-link" href="tel:+380961111111">
+                    +38 096 111 11 11
+                </a></li>
         </ul>
+        </div>
     </header>
     <main>
         <section class="hero">
+            <div class="container">
             <h1 class="hero-title">
-                Эффективные решения для вашего бизнеса
+                Эффективные решения </br>для вашего бизнеса
             </h1>
             <button type="button" class="hero-button primary-button">
                 Заказать услугу
             </button>
+            </div>
         </section>
         <section class="about">
+            <div class="container">
             <h2 hidden>
                 Серый кардинал
             </h2>
             <ul class="about-list list">
-                <li>
+                <li class="about-link">
                     <h3 class="about-title">
                         Внимание к деталям
                     </h3>
@@ -63,7 +69,7 @@
                         Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
-                <li>
+                <li class="about-link">
                     <h3 class="about-title">
                         Пунктуальность
                     </h3>
@@ -71,7 +77,7 @@
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
-                <li>
+                <li class="about-link">
                     <h3 class="about-title">
                         Планирование
                     </h3>
@@ -79,7 +85,7 @@
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                 </li>
-                <li>
+                <li class="about-link">
                     <h3 class="about-title">
                         Современные технологии
                     </h3>
@@ -88,29 +94,33 @@
                     </p>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="about-computer">
+            <div class="container">
             <h2 class="title-main">
                 Чем мы занимаемся
             </h2>
-            <ul class="list">
-                <li>
+            <ul class="computer-list list">
+                <li class="computer-link">
                     <img src="./images/img.computer.1.jpg" alt="pretty_white_computer" width="370">
                 </li>
-                <li>
+                <li class="computer-link">
                     <img src="./images/img.computer.2.jpg" alt="beautiful_white_computer" width="370">
                 </li>
-                <li>
+                <li class="computer-link">
                     <img src="./images/img.computer.3.jpg" alt="many_white_computers" width="370">
                 </li>
             </ul>
+            </div>
         </section>
         <article class="team-content">
+            <div class="container">
             <h2 class="title-main">
                 Наша команда
             </h2>
-            <ul class="list">
-                <li>
+            <ul class="team-list list">
+                <li class="team-link">
                     <img src="./images/img.team.1.jpg" alt="Igor" width="270">
                     <h3 class="text-team">
                         Игорь Демьяненко
@@ -119,7 +129,7 @@
                         Product Designer
                     </p>
                 </li>
-                <li>
+                <li class="team-link">
                     <img src="./images/img.team.2.jpg" alt="Olga" width="270">
                     <h3 class="text-team">
                         Ольга Репина
@@ -128,14 +138,14 @@
                         Frontend Developer
                     </p>
                 </li>
-                <li>
+                <li class="team-link">
                     <img src="./images/img.team.3.jpg" alt="Nik" width="270">
                     <h3 class="text-team">
                         Николай Тарасов
                     </h3>
                     <p lang="en" class="text-profession">Marketing</p>
                 </li>
-                <li>
+                <li class="team-link">
                     <img src="./images/img.team.4.jpg" alt="Myhailo" width="270">
                     <h3 class="text-team">
                         Михаил Ермаков
@@ -145,24 +155,27 @@
                     </p>
                 </li>
             </ul>
+            </div>
         </article>
     </main>
     <footer class="cellar">
+        <div class="container">
         <a href="./" lang="en" class="logo cellar-logo">
             <span class="logo-web">Web</span>Studio
         </a>
-        <address>
-            <a class="cellar-link text-cellar" href="https://goo.gl/maps/cegaFSzmEe4wthp77" target="_blank"
+        <address class="cellar-link">
+            <a class="cellar-link text-cellar location" href="https://goo.gl/maps/cegaFSzmEe4wthp77" target="_blank"
                 rel="noopener noreferrer">
                 г. Киев, пр-т Леси Украинки, 26
             </a>
-            <a class="cellar-link text-cellar" href="mailto:info@example.com">
+            <a class="cellar-link text-cellar post" href="mailto:info@example.com">
                 info@example.com
             </a>
             <a class="cellar-link text-cellar" href="tel:+380991111111">
                 +38 099 111 11 11
             </a>
         </address>
+        </div>
     </footer>
 </body>
 
