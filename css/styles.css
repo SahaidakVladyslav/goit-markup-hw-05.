@@ -90,6 +90,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  max-width: 969px;
   text-align: center;
   color: #ffffff;
   margin-bottom: 40px;
@@ -326,6 +327,7 @@ img {
 .location {
   margin-top: 20px;
   margin-bottom: 9px;
+  color: rgba(255, 255, 255, 1);
 }
 .post {
   margin-bottom: 9px;
