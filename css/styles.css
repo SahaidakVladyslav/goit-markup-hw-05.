@@ -2,6 +2,7 @@
   --accent-color: #2196f3;
   --brand-color: #2f303a;
   --text-color: #212121;
+  --svg-color: #afb1b8;
 }
 
 body {
@@ -123,6 +124,33 @@ img {
   border: none;
 }
 
+.hero {
+  background-color: #2f303a66;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Img.hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* section about - svg */
+.about-svg-list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 30px;
+}
+.about-svg-link {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-svg-link:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* section about */
 .about {
   padding-top: 94px;
@@ -148,6 +176,7 @@ img {
 .about-link:not(:last-child) {
   margin-right: 30px;
 }
+
 /*section about-computer  */
 .about-computer {
   padding-bottom: 94px;
@@ -178,8 +207,43 @@ img {
   color: #757575;
   margin-bottom: 30px;
 }
+/* out - customer - section */
+.our-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.customers-list {
+  list-style: none;
+  display: flex;
+}
+
+.cutomers-web {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cutomers-web:hover,
+.cutomers-web:focus {
+  border-color: var(--accent-color);
+}
+.customers-svg {
+  fill: var(--svg-color);
+}
+.cutomers-web:hover .customers-svg,
+.cutomers-web:focus .customers-svg {
+  fill: var(--accent-color);
+}
+.cutomers-link:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* cellar or footer section */
+
 .text-cellar {
   font-weight: normal;
   font-size: 14px;
