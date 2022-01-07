@@ -87,6 +87,15 @@ img {
   font-size: 14px;
   line-height: 1.14;
 }
+/* header svg */
+.icon-hat {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.hat-link:focus .icon-hat,
+.hat-link:hover .icon-hat {
+  fill: currentColor;
+}
 /* hero */
 .hero-title {
   font-weight: 900;
@@ -170,7 +179,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
-  /* margin-right: 30px; */
   width: 270px;
 }
 .about-link:not(:last-child) {
@@ -205,8 +213,43 @@ img {
   line-height: 1.18;
   text-align: center;
   color: #757575;
+  margin-bottom: 16px;
+}
+/* svg team section */
+.list-icon {
+  list-style: none;
+  display: flex;
+  margin-left: 32px;
   margin-bottom: 30px;
 }
+.link-icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+}
+.link-icon:not(:last-child) {
+  margin-right: 10px;
+}
+.icon-reference {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-team {
+  fill: var(--svg-color);
+}
+.icon-reference:focus,
+.icon-reference:hover {
+  background-color: var(--accent-color);
+}
+.icon-reference:focus .icon-team,
+.icon-reference:hover .icon-team {
+  fill: #fff;
+}
+
 /* out - customer - section */
 .our-customers {
   padding-top: 94px;
@@ -244,13 +287,45 @@ img {
 
 /* cellar or footer section */
 
+.cellar-container {
+  display: flex;
+}
+.cellar-contact-container {
+  display: flex;
+  flex-direction: column;
+}
 .text-cellar {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
-
+/* cellar come to us section */
+.container-reference {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  margin-top: 12px;
+}
+.reference-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.list-icon-cellar {
+  margin-top: 20px;
+  margin-left: 0;
+}
+.link-icon-cellar {
+  background-color: #ffffff1a;
+}
+.icon-team-cellar {
+  fill: #ffffff;
+}
 /* portfolio content */
 .button-portfolio:focus {
   background-color: var(--accent-color);
@@ -267,6 +342,7 @@ img {
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
   border: solid #f5f4fa;
+  border: none;
 }
 .portfolio-title {
   font-style: normal;
