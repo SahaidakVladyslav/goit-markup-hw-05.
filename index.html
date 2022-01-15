@@ -22,15 +22,21 @@
         </a>
         <nav class="browsing">
             <ul class="site-browsing list">
-                <li class="nav-link"><a class="browsing-link text-link  current" href="./index.html">
+                <li class="nav-link current-link">
+                    <a class="browsing-link text-link  current" href="./index.html">
                         Студия
-                    </a></li>
-                <li class="nav-link"><a class="browsing-link text-link" href="./portfolio.html">
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a class="browsing-link text-link" href="./portfolio.html">
                         Портфолио
-                    </a></li>
-                <li class="nav-link"><a class="browsing-link text-link" href="">
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a class="browsing-link text-link" href="">
                         Контакты
-                    </a></li>
+                    </a>
+                </li>
             </ul>
         </nav>
         <ul class="hat-list list">
@@ -59,9 +65,16 @@
             <h1 class="hero-title">
                 ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
             </h1>
-            <button type="button" class="hero-button primary-button">
+            <button type="button" class="hero-button primary-button" data-modal-open>
                 Заказать услугу
             </button>
+            </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="close-button" type="button" data-modal-close>
+
+                    </button>
+                </div>
             </div>
         </section>
         <section class="about">
@@ -133,13 +146,19 @@
             </h2>
             <ul class="computer-list list">
                 <li class="computer-link">
-                    <img src="./images/img.computer.1.jpg" alt="pretty_white_computer" width="370">
+                    <div class="computer-link-container computer-link-container-first">
+                        <img src="./images/img.computer.1.jpg" alt="pretty_white_computer" width="370">
+                    </div>
                 </li>
                 <li class="computer-link">
-                    <img src="./images/img.computer.2.jpg" alt="beautiful_white_computer" width="370">
+                    <div class="computer-link-container computer-link-container-second">
+                        <img src="./images/img.computer.2.jpg" alt="beautiful_white_computer" width="370">
+                    </div>
                 </li>
                 <li class="computer-link">
-                    <img src="./images/img.computer.3.jpg" alt="many_white_computers" width="370">
+                    <div class="computer-link-container computer-link-container-third">
+                        <img src="./images/img.computer.3.jpg" alt="many_white_computers" width="370">
+                    </div>
                 </li>
             </ul>
             </div>
@@ -425,5 +444,6 @@
         </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
